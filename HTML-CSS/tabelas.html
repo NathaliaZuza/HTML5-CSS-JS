@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: flex;
+        }
+        table{
+            width: 350px;
+            border-style: none;
+            border-radius: 5px;
+            font-family: 'Segoe UI'; 
+            box-shadow: 5px 5px 5px 5px #eeeeee;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+        .tabela{
+            height: 450px;
+        }
+        td {
+           border-bottom: 1px solid rgb(59, 0, 0);
+        }
+        img{
+            width: 80px;
+        }
+        #title{
+            color: #0099ff;
+            padding: 20px;
+        }
+        #cod{
+            color: #ffa0a0; 
+            padding: 30px;
+        }
+        #price{
+            padding: 15px;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="tabela">
+            <table>
+                <tr>
+                    <td id="title"><b>Código</b></td>
+                    <td id="title"><b>Produto</b></td>
+                    <td id="title"><b>Foto</b></td>
+                    <td id="title"><b>Preço</b></td>
+                </tr>
+                <tr>
+                    <td id="cod">001</td>
+                    <td>Notebook</td>
+                    <td><img src="img/note.png" alt=""></td>
+                    <td id="price">1.750,00</td>
+                </tr>
+                <tr>
+                    <td id="cod">002</td>
+                    <td>Computador</td>
+                    <td><img src="img/pc.png" alt=""></td>
+                    <td id="price">5.200,00</td>
+                </tr>
+                <tr>
+                    <td id="cod">003</td>
+                    <td>Tablet</td>
+                    <td><img src="img/tablet.png" alt=""></td>
+                    <td id="price">780,99</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" id="title">Descontos</td>
+                    <td colspan="3" style="text-align: center ;">-R$50,00</td>
+                  
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: center ;">-R$50,00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
