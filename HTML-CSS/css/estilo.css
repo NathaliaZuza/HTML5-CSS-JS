@@ -1,0 +1,54 @@
+body{
+    background-image: url(/HTML-CSS/img/fundo.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9b998d;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2a3a81;
+    width: 900px;
+    margin: 0;
+}
+.nav-list{
+    display: flex;
+    align-items: left;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #2a3a81;
+    padding: 25px;
+}
+.conteudo{
+    background-color: #fff3e6;
+    width: 870px;
+    margin: 0;
+    padding: 15px;
+}
+h3{
+    margin: 0;
+    color: #807d72;
+}
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9b998d;
+    font-weight: 700;
+    width: 900px;
+    margin: 0;
+}
+#last{
+    margin: 0;
+}
+.imagem{
+    border: #807d72 7px solid;
+}
+.bold{
+    font-weight: 700;
+}
