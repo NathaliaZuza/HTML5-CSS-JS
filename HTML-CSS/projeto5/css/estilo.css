@@ -22,3 +22,14 @@ body{
 .branco{
     color: #FFF;
 }
+a:link, a:visited{
+    color: #FFF;
+}
+a:hover{
+    background-color: #fff;
+    color: #ffb81f;
+}
+a{
+    text-decoration: none;
+    padding: 12px 8px;
+}
