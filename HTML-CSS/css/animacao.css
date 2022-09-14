@@ -120,3 +120,14 @@ a{
     width:800px;
     margin: auto;
 }
+.escola{
+    font-family: ocr;
+    font-size: 0.8em;
+    display: block;
+    text-transform: none;
+}
+.cor1{
+    color: #08c570;
+    font-weight: 750;
+    text-transform: uppercase;
+}
