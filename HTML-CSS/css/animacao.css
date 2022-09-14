@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI';
+    background-color: #252525;
+}
+h1{
+    font-size:25px;    
+    color: #fff;
+}
+.cabecalho{
+    background-color:#00FF8E;
+    padding: 15px;
+    text-align: center;
+}
+.menu{
+    padding: 10px;
+}
+a:hover{
+    background-color: #fff;
+    text-decoration: underline;
+}
+.cabecalho a:link, .cabecalho a:visited{
+    padding: 12px 8px;
+}
+.cabecalho a:hover{
+    background-color: #fff;
+
+    padding: 12px 8px;
+}
+a{
+    text-decoration: none;
+    color: #252525;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid #02ff02;
+}
