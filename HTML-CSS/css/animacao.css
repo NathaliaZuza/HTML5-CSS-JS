@@ -137,38 +137,50 @@ a{
     font-weight: 750;
     text-transform: uppercase;
     font-size: 17px;
- 
+    margin-bottom: 10px;
 }
 .cor2{
     color: #2ad4f1;
     font-weight: 750;
     text-transform: uppercase;
     font-size: 17px;
+    margin-bottom: 10px;
 }
 .cor3{
     color: #9BD23A;
     font-weight: 750;
     text-transform: uppercase;
     font-size: 17px;
+    margin-bottom: 10px;
 }
 .cor4{
     color: #F06064;
     font-weight: 750;
     text-transform: uppercase;
     font-size: 17px;
+    margin-bottom: 10px;
 }
 .cor5{
     color: #DB6DBD;
     font-weight: 750;
     text-transform: uppercase;
     font-size: 17px;
+    margin-bottom: 10px;
 }
 .cor6{
     color: #FEB905;
     font-weight: 750;
     text-transform: uppercase;
     font-size: 17px;
+    margin-bottom: 10px;
 }
 #front{
     font-size: 13px;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #db6dbe49;
+    margin-bottom: 15px;
 }
