@@ -1,38 +1,98 @@
+@font-face {
+    font-family: ocr;
+    src: url('OCR A Tribute W01 Light.otf') format('truetype'), url('OCR A Tribute W01 Light.ttf') format('opentype') ;
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Segoe UI';
-    background-color: #252525;
+    background-color: #161616;
+    margin: 0;
 }
 h1{
-    font-size:25px;    
+    font-size:40px;    
     color: #fff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
 }
 .cabecalho{
     background-color:#00FF8E;
     padding: 15px;
-    text-align: center;
+    margin: 0;
+}
+.animate{
+    display: inline-block;
+}
+.sem{
+    font-family: ocr;
+    width: 525px;
+    display: inline-block;
+    margin-left: 35px;
+}
+#desc{
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 2px solid #252525;
+    animation: pisca 5s infinite;
+}
+@keyframes pisca{
+    5% { color: #252525; }
+    10% { color: #252525; }
+    15% { color: #00FF8E; }
+    20% { color: #00FF8E; }
+    25% { color: #252525; }
+    30% { color: #252525; }
+    35% { color: #00FF8E; }
+    40% { color: #00FF8E; }
+    45% { color: #252525; }
+    50% { color: #252525; }
+    55% { color: #00FF8E; }
+    60% { color: #00FF8E; }
+    65% { color: #252525; }
+    70% { color: #252525; }
+    75% { color: #00FF8E; }
+    80% { color: #00FF8E; }
+    85% { color: #252525; }
+    90% { color: #252525; }
+    95% { color: #00FF8E; }
+    100% { color: #00FF8E; }
+
+    /* 10% { color: #252525; }
+    20% { color: #00FF8E; }
+    40% { color: #252525; }
+    60% { color: #00FF8E; }
+    80% { color: #252525; }
+    100% { color: #00FF8E; } */
 }
 .menu{
     padding: 10px;
 }
+.negrito{
+    font-weight: 700;
+}
 a:hover{
-    background-color: #fff;
-    text-decoration: underline;
+    background-color: #252525;
+    color: #00FF8E;
+    transition: ease 0.3s;
 }
 .cabecalho a:link, .cabecalho a:visited{
-    padding: 12px 8px;
+    padding: 4px 9px;
 }
 .cabecalho a:hover{
-    background-color: #fff;
-
-    padding: 12px 8px;
+    background-color: #252525;
+    padding: 4px 9px;
 }
 a{
     text-decoration: none;
     color: #252525;
 }
 .box{
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 240px;
     border-radius: 5px;
-    border: 1px solid #02ff02;
+    border: 1px solid #2f8cfe96;
+    background-color: #041B39;
+    display: inline-block;
 }
