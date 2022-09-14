@@ -89,10 +89,34 @@ a{
     color: #252525;
 }
 .box{
-    width: 230px;
-    height: 240px;
-    border-radius: 5px;
+    width: 200px;
+    height: 190px;
+    border-radius: 7px;
     border: 1px solid #2f8cfe96;
     background-color: #041B39;
     display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    padding: 20px;
+}
+.box:hover{
+    transform: translateY(-10px);
+    transition: ease-out 0.3s;
+    border: 1px solid #2f8cfe;
+}
+/* @keyframes float{
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+} */
+.container{
+    color: #fff;
+    width:800px;
+    margin: auto;
 }
