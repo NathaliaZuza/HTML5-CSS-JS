@@ -92,7 +92,7 @@ a{
 }
 .box{
     width: 160px;
-    height: 155px;
+    height: 170px;
     border-radius: 7px;
     border: 1px solid #2f8cfe96;
     background-color: #041B39;
@@ -178,44 +178,81 @@ a{
     font-size: 13px;
 }
 .icon1{
-    width: 35px;
-    height: 35px;
+    width: 43px;
+    height: 43px;
     border-radius: 5px;
     background-color:#00ff8c3f;
     margin-bottom: 15px;
 }
+.icon1 i{
+    font-size: 30px;
+    color: #00FF8E;
+    padding-top: 7px;
+    padding-left: 7px;
+}
 .icon2{
-    width: 35px;
-    height: 35px;
+    width: 43px;
+    height: 43px;
     border-radius: 5px;
     background-color:  #2ad3f14b;
     margin-bottom: 15px;
 }
+.icon2 i{
+    font-size: 30px;
+    color: #2ad3f1;
+    padding-top: 7px;
+    padding-left: 7px;
+}
 .icon3{
-    width: 35px;
-    height: 35px;
+    width: 43px;
+    height: 43px;
     border-radius: 5px;
     background-color: #9ad23a3d;
     margin-bottom: 15px;
 }
+.icon3 i{
+    font-size: 30px;
+    color: #9ad23a;
+    padding-top: 7px;
+    padding-left: 7px;
+}
 .icon4{
-    width: 35px;
-    height: 35px;
+    width: 43px;
+    height: 43px;
     border-radius: 5px;
     background-color: #f0606538;
     margin-bottom: 15px;
 }
+.icon4 i{
+    font-size: 30px;
+    color:  #f06065;
+    padding-top: 7px;
+    padding-left: 7px;
+}
 .icon5{
-    width: 35px;
-    height: 35px;
+    width: 43px;
+    height: 43px;
     border-radius: 5px;
     background-color: #db6dbe49;
     margin-bottom: 15px;
 }
+.icon5 i{
+    font-size: 30px;
+    color: #db6dbe;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
 .icon6{
-    width: 35px;
-    height: 35px;
+    width: 43px;
+    height: 43px;
     border-radius: 5px;
     background-color: #feb7053a;
     margin-bottom: 15px;
+}
+.icon6 i{
+    font-size: 30px;
+    color:  #feb705;
+    padding-top: 7px;
+    padding-left: 7px;
 }
