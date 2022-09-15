@@ -177,10 +177,45 @@ a{
 #front{
     font-size: 13px;
 }
-.icon{
+.icon1{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color:#00ff8c3f;
+    margin-bottom: 15px;
+}
+.icon2{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color:  #2ad3f14b;
+    margin-bottom: 15px;
+}
+.icon3{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #9ad23a3d;
+    margin-bottom: 15px;
+}
+.icon4{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #f0606538;
+    margin-bottom: 15px;
+}
+.icon5{
     width: 35px;
     height: 35px;
     border-radius: 5px;
     background-color: #db6dbe49;
+    margin-bottom: 15px;
+}
+.icon6{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #feb7053a;
     margin-bottom: 15px;
 }
