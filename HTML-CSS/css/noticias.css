@@ -58,3 +58,44 @@ body.fotos #navegacao a#fotos{
     background: #de003e;
     cursor: text;
 }
+
+#conteudo{
+    background-color: #f5f5f5;
+    margin-top: 60px;
+
+}
+#lateral{
+    width: 180px;
+    background-color: bisque;
+    float: left;
+    margin: 0 0 20px -750px ;
+}
+#tres-colunas #prim{
+    width: 270px;
+    background: #de003e;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#duas-colunas #prim{
+    width: 555px;
+}
+#uma-coluna #prim{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+#sec{
+    width: 270px;
+    background-color: brown;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#container-rodape{
+   background: #294c71;
+   padding: 20px;
+}
+#rodape{
+     width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
