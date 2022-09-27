@@ -167,6 +167,7 @@ img.img-principal{
     width: 98%;
     border: 3px solid #dfdfdf;
 }
+
 h3{
     text-transform: uppercase;
     display: inline;
@@ -177,4 +178,22 @@ h3{
 .destaque h3{
     background: #b10333;
     color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e;
+    color: #000;
+}
+#lista-noticias li{
+    padding: 2px ;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a {
+    font-size: 0.8em;
+    list-style: none;
 }
