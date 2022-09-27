@@ -194,6 +194,13 @@ h3{
     margin: 5px;
 }
 #lista-noticias li a {
-    font-size: 0.8em;
     list-style: none;
+}
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+#lista-noticias li a p{
+    font-size: 0.7em;
 }
