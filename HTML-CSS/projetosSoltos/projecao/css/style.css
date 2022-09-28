@@ -10,6 +10,8 @@ body{
     height: 80px;
     border-bottom: 3px solid #EA4244;
     text-align: center;
+    position: fixed;
+    width: 100%;
 }
 .topo img{
     float: left;
@@ -76,8 +78,9 @@ body{
 }
 
 .pag-principal{
+    margin-top: 85px;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: #2A3348;
     color: #FF8933;
     /* border: 1px solid rgb(30, 255, 0); */
@@ -85,10 +88,10 @@ body{
 .conteudo-principal {
     height: 60%;
     margin-left: 160px;
-    margin-top: 30px;
-    padding: 50px 50px 0px 50px;
+    margin-top: 0px;
+    padding: 0px 50px 0px 50px;
     /* border: 1px solid red; */
-    width: 27%;
+    width: 27.8%;
     float: left;
     list-style: none;
 }
@@ -128,15 +131,15 @@ body{
     background-color: #EA4244;
 }
 .linha{
-    height: 3px;
+    padding-top: 86px;
     width: 68vw;
     background-color: #EE8C3C;
-    border-radius: 5px;
+    border-radius: 2px;
     margin: auto;
 }
 #img-principal{
-    margin-top: 40px;
-    padding: 20px 20px 20px 46px;
+    margin-top: -20px;
+    padding: 0px 20px 20px 46px;
 }
 .linha2{
     margin-top: 20px;
@@ -144,4 +147,11 @@ body{
     width: 54%;
     background-color: #EE8C3C;
     border-radius: 5px;
+}
+
+.cursos{
+    background: #F2F2F2;
+    color: #2A3348;
+    text-align: center;
+    height: 100vh;
 }
