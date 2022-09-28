@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    background: #fff url(/HTML-CSS/projeto7/img/bg.png);
+    margin: 15px;
+}
+
+#container{
+    background: #ede9cc;
+}
+#topo{
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+#area-logo{
+    background: red;
+}
