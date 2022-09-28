@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    background: #ede9cc;
+    background: #ede9cc url(/HTML-CSS/projeto7/img/bg-container.png) top center repeat-y;
     margin: 0 auto;
     max-width: 740px;
     min-width: 1180px ;
@@ -111,4 +111,80 @@ ul#navegacao{
     width: 226px;
     height: 164px;
     float: right;
+}
+
+#area-principal{ 
+    float: left;
+    width: 50%;
+    background: url(/HTML-CSS//projeto7/img/bg-area-principal.png) top left repeat-x;
+    padding: 30px 0px;
+}
+
+#area-lateral{
+    float: right;
+    width: 50%;
+    background: url(/HTML-CSS//projeto7/img/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.rodape{
+    clear: both;
+    padding: 16px;
+    background: #fff  url(/HTML-CSS/projeto7/img/bg-rodape.png);
+    color: #7d7640;
+}
+
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+.lista{
+    list-style: disc;
+    color: #696335;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* .conteudo-lateral{
+    border: 1px solid red;
+    
+} */
+
+img.img-lateral{
+    width: 170px;
+    margin-right: 10px;
+    float: left;
+}
+
+ul.conteudo-lateral li{
+    padding: 10px;
+    border-bottom: 1.5px solid #fff;
+ 
+}
+
+ul.conteudo-lateral li:hover{
+    background-color: #fffae669;
+    cursor: pointer;
+}
+
+ul.conteudo-lateral li p{
+    margin-left: 50px;
+}
+
+ul.conteudo-lateral h3{
+    font-size: 1em;
+    color: #696335;   
+    background: url(/HTML-CSS/projeto7/img/ornamento.png) no-repeat center right;
 }
