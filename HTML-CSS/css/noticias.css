@@ -195,6 +195,7 @@ h3{
 }
 #lista-noticias li a {
     list-style: none;
+    text-decoration: none;
 }
 #lista-noticias li a h3{
     font-size: 0.8em;
@@ -203,4 +204,8 @@ h3{
 }
 #lista-noticias li a p{
     font-size: 0.7em;
+}
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
 }
