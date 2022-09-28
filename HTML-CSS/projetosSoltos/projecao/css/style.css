@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body{
     font-family: Helvetica, sans-serif;
 }
@@ -153,5 +155,88 @@ body{
     background: #F2F2F2;
     color: #2A3348;
     text-align: center;
-    height: 100vh;
+    height: 100vh; 
+    padding: 8%;
+}
+
+.cursos h1{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #182249;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+   
+}
+
+.linha3{
+    background: #EE8C3C;
+    height: 3px;
+    width: 170px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.cursos p{
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22px;
+    color: #30435e;
+    padding: 15px 120px 15px 120px;
+}
+
+#bold{
+    font-weight: 700;
+}
+
+.cursos-lista{
+    background: #fff;
+    border-radius: 10px;
+    width: 83%;
+    height: 90vh;
+    margin: auto;
+}
+.cursos ul{
+    padding: 40px;
+    float: left;
+    text-align: left;
+    list-style: none;
+    font-family: "Rubik";
+    font-weight: 400;
+    width: 43%;
+    margin-right: -40px;
+    
+}
+
+.cursos li{
+    line-height: 22px;
+    font-size: 16px;
+    border-bottom: 1px solid #182249;
+    padding: 10px;
+}
+
+.cursos li a{
+    color: #30435e;
+    text-decoration: none;
+}   
+
+.cursos li a#primeiro{
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+.cursos li a:hover{
+    color: #ff8933;
+}
+
+span.novo{
+    background-color: #ff8933;
+    color: #fff;
+    padding: 0px 8px 0px 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
 }
