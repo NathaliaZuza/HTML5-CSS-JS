@@ -15,7 +15,21 @@ body{
     background: #dbcd87;
     height: 15.4em;
     min-height: 250px;
+    position: relative;
 }
 #area-logo{
-    background: red;
+    position: absolute;
+    background: url(/HTML-CSS/projeto7/img/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+}
+#area-menu{
+    position: absolute;
+    background: url(/HTML-CSS/projeto7/img/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right: 0;
 }
