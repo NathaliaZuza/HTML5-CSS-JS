@@ -159,7 +159,7 @@ body{
     padding: 8%;
 }
 
-.cursos h1{
+h1.titulo{
     font-family: 'Rubik';
     font-weight: 700;
     font-size: 36px;
@@ -168,13 +168,12 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 10px;
-   
 }
 
 .linha3{
-    background: #EE8C3C;
+    background: #FF8933;
     height: 3px;
-    width: 170px;
+    width: 200px;
     margin: auto;
     border-radius: 5px;
 }
@@ -185,7 +184,7 @@ body{
     font-size: 19px;
     line-height: 22px;
     color: #30435e;
-    padding: 15px 120px 15px 120px;
+    padding: 15px 120px 30px 120px;
 }
 
 #bold{
@@ -239,4 +238,14 @@ span.novo{
     border-radius: 10px;
     text-transform: uppercase;
     font-weight: 400;
+}
+
+.inscricao{
+    background: #F2F2F2;
+    height: 80vh;
+}
+
+.inscricao h1{
+    text-align: center;
+    padding-top: 20px;
 }
