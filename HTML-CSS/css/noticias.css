@@ -93,6 +93,8 @@ body.fotos #navegacao a#fotos{
 
 #duas-colunas #prim{
     width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
 }
 
 #uma-coluna #prim{
