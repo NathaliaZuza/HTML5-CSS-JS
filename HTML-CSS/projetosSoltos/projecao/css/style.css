@@ -296,11 +296,35 @@ span.novo{
     font-family: 'Rubik';
     font-weight: 400;
 }
+
 .input-submit:hover{
     cursor: pointer;
     background: #EE8C3C;
     transition: 0.3s ease;
 }
+
+.input-inscricao{
+    color: #fff;
+    background: #EE8C3C;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    width: 100%;
+    border-radius: 10px;
+    line-height: 40px;
+    border: none;
+    font-weight: 400;
+    margin-top: 25px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+.input-inscricao:hover{
+    cursor: pointer; 
+    color: #182249;
+    transition: 0.3s ease;
+}
+
 
 .input-select{
     color: #182249;
@@ -337,4 +361,75 @@ select{
 }
 select:focus {
     border: 1px solid #1680fa;
+}
+
+h1.titulo-dark{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 100px 200px 10px 200px;
+    text-align: center;
+}
+
+.vantagens{
+    background: #2A3348;
+    height: 200vh;
+    width: 100%;
+} 
+
+.vantagens-container{
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: 20px auto;
+}
+
+.card-central{
+    padding: 25px;
+    margin: auto;
+    background: #F2F2F2;
+    border-radius: 10px;
+    color: #2A3348;
+}
+
+.card-central p{
+    padding-top: 15px;
+    color: #30435e;
+    line-height: 21px;
+   
+}
+.card-central h2{
+    font-weight: 700;
+
+}
+
+.card{
+    width: 43.5%;
+    background: #fff;
+    border-radius: 10px;
+    color: #2A3348;
+    padding: 25px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.card p{
+    color: #30435e;
+    line-height: 21px;
+}
+
+#card1{
+    height: 320px;
+}
+
+#card2{
+    height: 320px;
+    float: right;
+}
+
+#card4{
+    float: right;
 }
