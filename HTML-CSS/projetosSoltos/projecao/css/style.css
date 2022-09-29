@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
     font-family: 'Rubik';
 }
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #2A3348;
+}
+
+/************** .1. HEADER  *************/
 .topo{
     background: #2A3348;
     height: 80px;
@@ -15,12 +24,14 @@ body{
     position: fixed;
     width: 100%;
 }
+
 .topo img{
     float: left;
     width: 200px;
     padding: 10px;
     margin-left: 200px;
 }
+
 .topo li{
     list-style: none;
     color: #fff;
@@ -35,6 +46,7 @@ body{
     height: 80px;
     letter-spacing: 1px;
 }
+
 .topo li:hover{
     border-top: 3px solid #FF8933;
     color: #FF8933;
@@ -73,33 +85,39 @@ body{
     margin-right: -150px;
 }
 
-.container{
-    width: 100%;
-    height: 100%;
-    background-color: #2A3348;
+/* LINHA HEADER */
+.linha{
+    padding-top: 86px;
+    width: 68vw;
+    background-color: #EE8C3C;
+    border-radius: 2px;
+    margin: auto;
 }
 
+/********* .2. PÁGINA PRINCIPAL *********/
 .pag-principal{
     margin-top: 85px;
     width: 100%;
     height: 90vh;
     background: #2A3348;
     color: #FF8933;
-    /* border: 1px solid rgb(30, 255, 0); */
 }
+
+/* LADO ESQUERDO */
 .conteudo-principal {
     height: 60%;
     margin-left: 160px;
     margin-top: 0px;
     padding: 0px 50px 0px 50px;
-    /* border: 1px solid red; */
     width: 27.8%;
     float: left;
     list-style: none;
 }
+
 .conteudo-principal li img{
     border: 1px solid red;
 }
+
 .conteudo-principal h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.2em;
@@ -112,6 +130,7 @@ body{
     padding: 20px 0px 0px 0px;
     line-height: 1.4em;
 }
+
 .conteudo-principal .submit{
     width: 100%;
     background-color:#EE8C3C;
@@ -124,25 +143,19 @@ body{
     margin-top: 20px;
     font-weight: 900;
 }
+
 .conteudo-principal .submit:hover{
     color: #2A3348;
     transition: 0.5s;
 }
-.clear{
-    clear: both;
-    background-color: #EA4244;
-}
-.linha{
-    padding-top: 86px;
-    width: 68vw;
-    background-color: #EE8C3C;
-    border-radius: 2px;
-    margin: auto;
-}
+
+/* LADO DIREITO */
 #img-principal{
     margin-top: -20px;
     padding: 0px 20px 20px 46px;
 }
+
+/* LINHA DEBAIXO DO TÍTULO DA PÁGINA PRINCIPAL */
 .linha2{
     margin-top: 20px;
     height: 3px;
@@ -151,6 +164,8 @@ body{
     border-radius: 5px;
 }
 
+
+/********* .3. CURSOS *********/
 .cursos{
     background: #F2F2F2;
     color: #2A3348;
@@ -170,6 +185,7 @@ h1.titulo{
     padding: 10px;
 }
 
+/* LINHA DEBAIXO DO TÍTULO */
 .linha3{
     background: #FF8933;
     height: 3px;
@@ -191,6 +207,7 @@ h1.titulo{
     font-weight: 700;
 }
 
+/* CONTAINER CURSOS */
 .cursos-lista{
     background: #fff;
     border-radius: 10px;
@@ -198,6 +215,8 @@ h1.titulo{
     height: 90vh;
     margin: auto;
 }
+
+/* COLUNAS */
 .cursos ul{
     padding: 40px;
     float: left;
@@ -207,7 +226,6 @@ h1.titulo{
     font-weight: 400;
     width: 43%;
     margin-right: -40px;
-    
 }
 
 .cursos li{
@@ -231,6 +249,7 @@ h1.titulo{
     color: #ff8933;
 }
 
+/* SPAN NOVO */
 span.novo{
     background-color: #ff8933;
     color: #fff;
@@ -240,6 +259,7 @@ span.novo{
     font-weight: 400;
 }
 
+/********* .3. CURSOS *********/
 .inscricao{
     background: #F2F2F2;
     height: 80vh;
@@ -250,6 +270,7 @@ span.novo{
     padding-top: 20px;
 }
 
+/* FORMULÁRIO */
 .form-inscricao{
     background: #fff;
     width: 64%;
@@ -303,29 +324,6 @@ span.novo{
     transition: 0.3s ease;
 }
 
-.input-inscricao{
-    color: #fff;
-    background: #EE8C3C;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    width: 100%;
-    border-radius: 10px;
-    line-height: 40px;
-    border: none;
-    font-weight: 400;
-    margin-top: 25px;
-    font-family: 'Rubik';
-    font-weight: 500;
-}
-
-.input-inscricao:hover{
-    cursor: pointer; 
-    color: #182249;
-    transition: 0.3s ease;
-}
-
-
 .input-select{
     color: #182249;
     background: #ebebeb;
@@ -363,6 +361,8 @@ select:focus {
     border: 1px solid #1680fa;
 }
 
+
+/********* .5. VANTAGENS DO UNIPROJEÇÃO *********/
 h1.titulo-dark{
     font-family: 'Rubik';
     font-weight: 700;
@@ -383,10 +383,10 @@ h1.titulo-dark{
 
 .vantagens-container{
     width: 70%;
-    /* border: 1px solid red; */
     margin: 20px auto;
 }
 
+/* CARD CENTRAL */
 .card-central{
     padding: 25px;
     margin: auto;
@@ -401,6 +401,7 @@ h1.titulo-dark{
     line-height: 21px;
    
 }
+
 .card-central h2{
     font-weight: 700;
 
@@ -434,6 +435,30 @@ h1.titulo-dark{
     float: right;
 }
 
+.input-inscricao{
+    color: #fff;
+    background: #EE8C3C;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    width: 100%;
+    border-radius: 10px;
+    line-height: 40px;
+    border: none;
+    font-weight: 400;
+    margin-top: 25px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+.input-inscricao:hover{
+    cursor: pointer; 
+    color: #182249;
+    transition: 0.3s ease;
+}
+
+
+/******** .6. NOSSOS POLOS *********/
 p.polos {
     font-family: 'Rubik';
     font-weight: 300;
