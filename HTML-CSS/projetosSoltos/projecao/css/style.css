@@ -521,6 +521,39 @@ a.map {
     font-size: 1.5rem;
 
 }
+a.phone {
+    color: #30435e;
+    font-size: 1.5rem;
+
+}
 .bxs-map{
     margin-left: -29px;
+}
+
+.botao-polos{
+    width: 100%;
+    margin: 10px 0px 10px 3px;
+}
+
+.input-polos{
+    color: #fff;
+    background: #ff8933;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    width: 100%;
+    border-radius: 10px;
+    line-height: 70px;
+    border: none;
+    font-weight: 400;
+    margin-top: 25px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+.input-polos:hover{
+    cursor: pointer; 
+    background: #2A3348;
+    color: #ff8933;
+    transition: 0.3s ease;
 }
