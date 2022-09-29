@@ -254,7 +254,7 @@ span.novo{
     background: #fff;
     width: 64%;
     border-radius: 10px;
-    margin: auto;
+    margin: 25px auto;
     padding: 25px;
 }
 
@@ -296,6 +296,11 @@ span.novo{
     font-family: 'Rubik';
     font-weight: 400;
 }
+.input-submit:hover{
+    cursor: pointer;
+    background: #EE8C3C;
+    transition: 0.3s ease;
+}
 
 .input-select{
     color: #182249;
@@ -304,9 +309,32 @@ span.novo{
     border-radius: 7px;
     border: none;
     font-weight: 400;
-    margin-top: 25px;
+    margin-top: 3px;
     border: 1px solid #1822493b;
     padding: 8px;
     font-family: 'Rubik';
     font-size: 16px;
+}
+
+.label-select{
+    font-weight: 700;
+    color: #30435e;
+    font-size: 16px;
+    display: inline-block;
+}
+
+input{
+    outline: none;
+    padding-left: 10px ;
+}
+
+input[type=text]:focus {
+    border: 1px solid #1680fa;
+}
+
+select{
+    outline: none;
+}
+select:focus {
+    border: 1px solid #1680fa;
 }
