@@ -263,7 +263,16 @@ span.novo{
     font-weight: 400;
 }
 
-/********* .3. CURSOS *********/
+/********* .4. FORMULÁRIO INSCRIÇÃO *********/
+@keyframes animacao{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
 .inscricao{
     background: #F2F2F2;
     height: 80vh;
@@ -272,7 +281,13 @@ span.novo{
 .inscricao h1{
     text-align: center;
     padding-top: 20px;
+    animation-name: animacao;
+    animation-duration: 1s;
 }
+.inscricao .linha3{
+    animation-name: animacao;
+    animation-duration: 1s;
+} 
 
 /* FORMULÁRIO */
 .form-inscricao{
@@ -281,6 +296,8 @@ span.novo{
     border-radius: 10px;
     margin: 25px auto;
     padding: 25px;
+    animation-name: animacao;
+    animation-duration: 5s;
 }
 
 .label-principal{
