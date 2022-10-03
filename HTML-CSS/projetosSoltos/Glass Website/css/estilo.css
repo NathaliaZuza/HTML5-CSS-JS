@@ -4,7 +4,39 @@
     box-sizing: border-box;
 }
 
+h2{
+    color: #426696;
+    font-weight: 600;
+    font-size: 1.7rem;
+    opacity: 0.6;
+}
+
+h3{
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 0.8rem;
+}
+
+
+p{
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 0.7rem;
+}
+
+
+h4{
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+
 main{
+    font-family: "Poppins", sans-serif;
     min-height: 100vh;
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     display: flex;
@@ -16,7 +48,7 @@ main{
 
 .glass{
     background: #fff;
-    min-height: 80vh;
+    height: 80vh;
     width: 60%;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7),
     rgba(255,255,255,0.3));
@@ -55,18 +87,38 @@ main{
     background: linear-gradient(to right bottom, rgba(255,255,255,0.8),
     rgba(255,255,255,0.3));
     border-radius: 1rem;
+    box-sizing: border-box;
 }
 
 .link{
     display: flex;
-    margin: 2rem 0rem;
-    padding: 1rem 5rem;
+    margin: 1rem 0rem;
+    padding: 0.5rem 2.5rem;
     align-items: center;
 }
 
-.link h2{
-    padding: 0rem 2rem;
+.link h3{
+    padding: 0rem 1rem;
 }
+
 .games{
     flex: 2;
+}
+
+.pro{
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 1rem;
+    color: #fff;
+    padding: 0.5rem;
+    display: flex;
+    position: relative;
+}
+
+.pro img{
+    position: absolute;
+    top: -18%;
+    right: 12%;
+}
+.pro h3{
+   width: 40%; 
 }
