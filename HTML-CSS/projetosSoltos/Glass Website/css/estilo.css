@@ -121,4 +121,36 @@ main{
 }
 .pro h3{
    width: 40%; 
+   color: #fff;
+   font-weight: 600;
+}
+
+/* .status{
+    margin-bottom: 3rem;
+} */ 
+
+.status input{
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    border: none;
+    width: 50%;
+    padding: 0.25rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.games{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2.5rem;
+}
+
+.card{
+    display: flex;
+    background: linear-gradient(to left top, rgba(255,255,255,1),
+    rgba(255,255,255,0.8));
+    border-radius: 0.5rem;
+    margin: 1rem 0rem;
+    padding: 1rem;
 }
