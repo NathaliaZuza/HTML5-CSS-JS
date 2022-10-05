@@ -54,6 +54,7 @@ nav ul li a:hover{
 #conteudo{
     width: 710px;
     float: left;
+    margin-bottom: 20px;
 }
 
 aside{
@@ -61,6 +62,7 @@ aside{
     float: right;
     background: #ebe7dd;
     padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section#visita{
@@ -72,6 +74,8 @@ section#visita{
 #galeria{
     padding: 0 27px 0 27px;
 }
+
+
 section#galeria a{
     display: block;
     background: url(../img/fundo-foto.png) no-repeat;
@@ -84,6 +88,37 @@ section#galeria a{
 section#galeria img{
     margin-left: 2px;
     margin-top: 3px;
+}
+
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#exposicoes{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px ;
+}
+
+article#historia{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px ;
+}
+
+h3{
+    color: #227115;
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 h4{
@@ -117,4 +152,13 @@ input.botao{
 
 fieldset{
     border: none;
+}
+
+footer{
+    padding: 20px 0 30px 0 ;
+    text-align: center;
+    background: url(../img/fundo-rodape.png) no-repeat center top;
+}
+footer>p a{
+    padding: 2px 10px;
 }
