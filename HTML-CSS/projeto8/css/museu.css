@@ -54,7 +54,6 @@ nav ul li a:hover{
 #conteudo{
     width: 710px;
     float: left;
-    background: red;
 }
 
 aside{
@@ -63,8 +62,41 @@ aside{
     background: #ebe7dd;
 }
 
-section #visita{
+section#visita{
     background: #cdc8b1;
     padding: 10px 27px 27px 27px;
     margin-top: 10px;
+}
+
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+
+input{
+    height: 20px;
+    border: none;
+    background: #fff;
+    font-size: 1em ;
+}
+
+input.campo{
+    border: 1px solid #ada484;
+}
+
+
+input.botao{
+    background: #9b9271;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ada484;
+    font-size: 1.2em;
+}
+
+fieldset{
+    border: none;
 }
