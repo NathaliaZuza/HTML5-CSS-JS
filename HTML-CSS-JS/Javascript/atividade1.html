@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade1</title>
+    <link rel="stylesheet" href="../css/atividade1.css">
+</head>
+<body>
+
+   <p class="p1"><spam class="num">1)</spam> Crie uma aplicação capaz de identificar a faixa etária com base na idade informada pelo usuário. Considere os seguintes critérios:</p>
+
+    <div class="enunciado">
+        <p>Se a idade informada for maior ou igual a 0 e menor que 15, exibir a mensagem “Criança”.</p> 
+        <p>Se a idade informada for maior ou igual a 15 e menor que 30, exibir a mensagem “Jovem”.</p>
+        <p> Se a idade informada for maior ou igual a 30 e menor que 60, exibir a mensagem “Adulto”.</p>
+        <p> Se a idade informada for maior ou igual a 60, exibir a mensagem “Idoso”.</p>
+    </div>
+  
+   <p>Fique à vontade para utilizar qualquer uma das funções aprendidas para exibição de dados para o usuário. </p>
+
+   <div class="solucao">
+
+        <script>
+
+            var idade = prompt('Qual é a sua idade?')
+            var crianca = 15
+            var jovem = 30
+            var adulto = 60
+
+            if (idade <= crianca){
+                document.write('<h2>Criança!</h2>')
+            }
+            else if(idade <= jovem){
+                document.write('<h2>Jovem!</h2>')
+            }
+            else if (idade <= adulto){
+                document.write('<h2>Adulto!</h2>')
+            }
+            else if(idade > adulto){
+                document.write('<h2>Idoso!</h2>')
+            }
+
+
+        // var nota = prompt('Digite a nota do aluno:')
+        // var faltas = prompt('Digite a quantidade de faltas:')
+        // var media = 7;
+        // var faltasMax = 15
+
+        
+        // if (nota >= media && faltas <= faltasMax){
+        //     document.write('Aprovado')
+        // } else{
+        //     document.write('Reprovado')
+        // }
+        </script> 
+
+    </div>
+</body>
+</html>
