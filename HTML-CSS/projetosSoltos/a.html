@@ -1,0 +1,43 @@
+PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '05082003' for column `be_sistema`.`tb_estudante`.`dt_nascimento` at row 1 in /var/www/estudante/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /var/www/estudante/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /var/www/estudante/vendor/yiisoft/yii2/db/Command.php(1102): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 /var/www/estudante/vendor/yiisoft/yii2/db/Schema.php(431): yii\db\Command->execute()
+#3 /var/www/estudante/vendor/yiisoft/yii2/db/ActiveRecord.php(604): yii\db\Schema->insert('tb_estudante', Array)
+#4 /var/www/estudante/vendor/yiisoft/yii2/db/ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal(NULL)
+#5 /var/www/estudante/vendor/yiisoft/yii2/db/BaseActiveRecord.php(676): yii\db\ActiveRecord->insert(true, NULL)
+#6 /var/www/estudante/controllers/EstudanteController.php(64): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\EstudanteController->actionIndex()
+#8 /var/www/estudante/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/estudante/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/estudante/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /var/www/estudante/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('estudante/index', Array)
+#12 /var/www/estudante/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/estudante/web/index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '05082003' for column `be_sistema`.`tb_estudante`.`dt_nascimento` at row 1
+The SQL being executed was: INSERT INTO `tb_estudante` (`no_estudante`, `dt_nascimento`, `nu_cpf`, `nu_rg`, `ds_emissor`, `st_cnh`, `tp_sexo`, `ds_estado_civil`, `st_deficiencia`, `ds_deficiencia`, `ds_pai`, `ds_mae`, `ds_endereco`, `ds_bairro`, `ds_cidade`, `ds_uf`, `nu_cep`, `ds_email`, `nu_telefone`, `nu_celular`, `ds_escolaridade`, `co_confinstituicao`, `co_confcurso`, `st_oab`, `ds_matricula`, `nu_semestre`, `ds_turno`, `ds_horario_disp`, `st_ingles`, `st_frances`, `st_espanhol`, `ds_outroidioma`, `ds_informacao`, `dt_cadastro`) VALUES ('Nathália Pereira da Silva Zuza', '05082003', '088.248.111-83', 3903913, 'DF', '1', 'F', 'Solteiro', 0, '', 'Agnaldo Pereira Zuza', 'Rosana Pereira da Silva', 'QNM 05 F, 42', 'Ceilândia Sul', 'Brasília', 'DF', '72.215-056', 'nathalia555zuza@gmail.com', '(61) 9 8637-3130', '(61) 9 8637-3130', 'Superior', 464, 90, 1, '', 1, 'Matutino', 'Vespertino', 'I', '', '', '', 'Trabalho como designer gráfico há dois anos como Freelancer, utilizando Photoshop e Illustrator. Estudante de programação (HTML, CSS, JavaScript, PHP, OO, Bootstrap, Mysql e noções básicas de Banco de Dados).', NOW()) in /var/www/estudante/vendor/yiisoft/yii2/db/Schema.php:676
+Stack trace:
+#0 /var/www/estudante/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 /var/www/estudante/vendor/yiisoft/yii2/db/Command.php(1102): yii\db\Command->internalExecute('INSERT INTO `tb...')
+#2 /var/www/estudante/vendor/yiisoft/yii2/db/Schema.php(431): yii\db\Command->execute()
+#3 /var/www/estudante/vendor/yiisoft/yii2/db/ActiveRecord.php(604): yii\db\Schema->insert('tb_estudante', Array)
+#4 /var/www/estudante/vendor/yiisoft/yii2/db/ActiveRecord.php(570): yii\db\ActiveRecord->insertInternal(NULL)
+#5 /var/www/estudante/vendor/yiisoft/yii2/db/BaseActiveRecord.php(676): yii\db\ActiveRecord->insert(true, NULL)
+#6 /var/www/estudante/controllers/EstudanteController.php(64): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\EstudanteController->actionIndex()
+#8 /var/www/estudante/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/estudante/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/estudante/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('index', Array)
+#11 /var/www/estudante/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('estudante/index', Array)
+#12 /var/www/estudante/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/estudante/web/index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 22007
+    [1] => 1292
+    [2] => Incorrect date value: '05082003' for column `be_sistema`.`tb_estudante`.`dt_nascimento` at row 1
+)
