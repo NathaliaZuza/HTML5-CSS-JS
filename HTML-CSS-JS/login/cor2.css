@@ -18,8 +18,8 @@ main{
     flex-direction: column; 
     height: 55vh;
     width: 25em;
-    /* border: 1px solid rgba(255, 255, 255, 0.24); */
-    /* background-color: #00000011; */
+    background-color: #ffffff04;
+    box-shadow: 6px 6px 15px #091f3f;
     border-radius: 15px;
    
 }
@@ -28,7 +28,7 @@ main{
     align-items: center;
     flex-direction: column; 
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
     /* text-transform: uppercase; */
     font-size:2rem;
     padding: 20px 0 20px 0;
@@ -53,7 +53,9 @@ main{
     color: #091f3f;
 }
 .input-email:focus, .input-senha:focus{
-    outline: 0.5px solid rgba(255, 255, 255, 0.651);
+    outline: 0.5px solid #ffffff6c;
+    border: none;
+    box-shadow: 5px 5px 5px #091f3f ;
 }
 .iconUser, .iconPassword{
     color: #fff;
