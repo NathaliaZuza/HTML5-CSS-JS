@@ -2,7 +2,6 @@
     margin: 0;
     font-family: 'Poppins';
     box-sizing: border-box;
-    color: #fff;
 }
 main{  
     display: flex;
@@ -10,7 +9,6 @@ main{
     flex-direction: column;   
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right top, #ff6900, #ff9f38);
 }
 .container-login{
     display: flex;
@@ -19,15 +17,15 @@ main{
     flex-direction: column; 
     height: 55vh;
     width: 25em;
-    box-shadow: 8px 8px 25px #b14a0038;
-    background-color: rgba(255, 255, 255, 0.118);
     border-radius: 15px;
+    border: 0.5px solid #000;
 }
+
 .logo-poder{
     display: flex;
     align-items: center;
     flex-direction: column; 
-    color: #fff;
+    color: #000;
     font-weight: 700;
     /* text-transform: uppercase; */
     font-size:2rem;
@@ -37,40 +35,42 @@ main{
 .div-email, .div-senha{
     width: 20rem;
 }
+
 .input-email, .input-senha{
-    background-color: #ffffff54;
-    color: #1B3C6A;
+    background-color: #fff;
     font-weight: 500;
     padding-left: 45px;
     width: 100%;
     height: 3rem;
-    border: none;
+    border: 0.5px solid #000;
     border-radius: 5px;
     outline: none;
     margin-bottom: -15px;
 }
-::-webkit-input-placeholder{
-    color: #ffffffbb;
-}
+
 .input-email:focus, .input-senha:focus{
-    outline: 0.5px solid #ffffff73;
+    outline: 0.5px solid #1b3c6a86;
     border: none;
-    box-shadow: 5px 5px 5px #b14a0042 ;
+    box-shadow: 5px 5px 5px #1b3c6a62 ;
+     /* -webkit-appearance: none; 
+     -webkit-border-radius: 0; */
 }
 .iconUser, .iconPassword{
-    color: #fff;
+    color: #000;
 }
+
 i{
     position: relative;
     top: -24px;
     left: 11px;
 }
+
 .recuperar-dados{
     text-align: center;
     font-size: small;
 }
 .recuperar-dados a{
-    color: #1B3C6A;
+    color: #000;
 }
 
 .div-btn-entrar{
@@ -81,7 +81,7 @@ i{
 }
 .btn-entrar{
     color: #fff;
-    background-color: #1B3C6A;
+    background-color: #000;
     font-weight: bolder;
     border: none;
     width: 100%; 
@@ -91,8 +91,8 @@ i{
 }
 
 .btn-entrar:hover{
-    background-color: #091f3f;
-    color: #ff9100;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: #fff;
     cursor: pointer;
     transition: 0.7s;
 }
