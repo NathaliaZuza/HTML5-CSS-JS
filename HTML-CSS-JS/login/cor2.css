@@ -2,7 +2,6 @@
     margin: 0;
     font-family: 'Poppins';
     box-sizing: border-box;
-    color: #fff;
 }
 main{  
     display: flex;
@@ -10,7 +9,7 @@ main{
     flex-direction: column;   
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right top, #ff6900, #ff9f38);
+    background: linear-gradient(to right top, #1B3C6A, #091f3f);
 }
 .container-login{
     display: flex;
@@ -38,26 +37,32 @@ main{
 .div-email, .div-senha{
     width: 20rem;
 }
+
 .input-email, .input-senha{
-    background-color: #ffffff6f;
-    color: #1B3C6A;
-    padding-left: 43px;
+    background-color: #ffffff54;
+    font-weight: 500;
+    padding-left: 45px;
     width: 100%;
     height: 3rem;
     border: none;
     border-radius: 5px;
     outline: none;
-    margin-bottom: 0;
+    margin-bottom: -15px;
 }
-
+::-webkit-input-placeholder{
+    color: #091f3f;
+}
+.input-email:focus, .input-senha:focus{
+    outline: 0.5px solid rgba(255, 255, 255, 0.651);
+}
 .iconUser, .iconPassword{
     color: #fff;
 }
 
 i{
     position: relative;
-    top: -37px;
-    left: 9px;
+    top: -24px;
+    left: 11px;
 }
 
 .recuperar-dados{
@@ -65,7 +70,7 @@ i{
     font-size: small;
 }
 .recuperar-dados a{
-    color: #1B3C6A;
+    color: #ff6900;
 }
 
 .div-btn-entrar{
@@ -75,8 +80,8 @@ i{
     justify-content: center;
 }
 .btn-entrar{
-    background-color: #fff;
-    color: #1B3C6A;
+    color: #fff;
+    background-color: #ff6900;
     font-weight: bolder;
     border: none;
     width: 100%; 
@@ -86,10 +91,11 @@ i{
 }
 
 .btn-entrar:hover{
-    color: #1B3C6A;
-    background-color: #fff;
+    background-color: #d64f00;
+    color: #fff;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.7s;
 }
+
 
 /* #ff6900; */
