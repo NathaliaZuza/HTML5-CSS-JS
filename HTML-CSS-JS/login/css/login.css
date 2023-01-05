@@ -97,6 +97,27 @@ i{
 
 /* Responsividade */
 
+
+@media (max-width: 576px){
+    .container-login{
+        width: 20em;
+        /* border: 0.5px solid #000; */
+    }
+    .logo-poder{
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        color: #000;
+        font-weight: 700;
+        /* text-transform: uppercase; */
+        font-size:1.8rem;
+        padding: 20px 0 20px 0;
+    }
+    .div-email, .div-senha{
+        width: 18rem;
+    }
+}
+
 @media (max-width: 321px){
     .container-login{
         width: 17em;
