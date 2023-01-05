@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+main{  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    align-items: center;
+    min-height: 100vh;
+}
+.container-login{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    height: 55vh;
+    width: 25em;
+    border-radius: 15px;
+    /* border: 0.5px solid #000; */
+}
+
+.logo-poder{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    color: #000;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    font-size:2rem;
+    padding: 20px 0 20px 0;
+}
+
+.div-email, .div-senha{
+    width: 20rem;
+}
+
+.input-email, .input-senha{
+    background-color: #fff;
+    font-weight: 500;
+    padding-left: 15px;
+    width: 100%;
+    height: 3rem;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.input-email:focus, .input-senha:focus{
+    outline: 0.5px solid #1b3c6a86;
+    border: none;
+    box-shadow: 5px 5px 5px #1b3c6a62 ;
+     /* -webkit-appearance: none; 
+     -webkit-border-radius: 0; */
+}
+.iconUser, .iconPassword{
+    color: #000;
+}
+
+i{
+    position: relative;
+    top: -24px;
+    left: 11px;
+}
+
+.recuperar-dados{
+    text-align: center;
+    font-size: small;
+}
+.recuperar-dados a{
+    color: #000;
+}
+
+.div-btn-entrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn-entrar{
+    color: #fff;
+    background-color: #000;
+    font-weight: bolder;
+    border: none;
+    width: 100%; 
+    padding: 0.7rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.btn-entrar:hover{
+    cursor: pointer;
+}
+
+
+/* #ff6900; */
