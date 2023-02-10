@@ -110,5 +110,107 @@ h1{
 .features{
     width: 100%;
     background-color: #222;
-    
+    color: #fff;
+    padding: 50px;
+}
+
+.features-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.product{
+    width: 100%;
+    padding: 50px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itens{
+    width: 650px;
+}
+
+.itens .item{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+
+.itens .item p{
+    margin-left: 15px;
+}
+
+
+.testmonial{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.testmonials{
+    background: #222;
+    color: #eee;
+    width: 100%;
+    padding: 50px;
+}
+
+.testmonial-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testmonial .testmonial-image{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.gallery{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.gallery-img{
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
 }
